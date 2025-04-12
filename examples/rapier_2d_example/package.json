@@ -1,0 +1,24 @@
+{
+  "name": "rapier_2d_example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/stats.js": "^0.17.3",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-top-level-await": "^1.5.0",
+    "vite-plugin-wasm": "^3.4.1"
+  },
+  "dependencies": {
+    "@dimforge/rapier2d": "^0.15.0",
+    "pixi-viewport": "^6.0.3",
+    "pixi.js": "^8.8.1",
+    "stats.js": "^0.17.0"
+  }
+}
